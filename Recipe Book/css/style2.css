@@ -1,0 +1,281 @@
+/* ..................Recipe Section................*/
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    background: #f8f8f8;
+}
+
+header{
+    height: 60px;
+    width: 100%;
+    background: #1a1a1a;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline;
+    margin-right: 20px;
+    font-weight: 500;
+}
+.logo {
+    font-size: 25px;
+}
+
+nav ul a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    
+}
+
+nav ul a:hover {
+    background: rgb(231, 158, 24);
+}
+
+.intro2 {
+    background: rgb(231, 158, 24);
+    padding: 50px 0;
+}
+.intro2 h1 {
+    text-align: center;
+    font-size: 40px;
+    color: #333;
+}
+.intro2 p {
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+}
+
+.search-box {
+    max-width: 600px;
+    margin: 15px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-box input{
+    width: 70%;
+    padding: 8px;
+    outline: none;
+    border: 0;
+    border-radius: 5px 0 0 5px;
+    font-size: 1rem;
+    border: 1px solid rgb(231, 158, 24);
+}
+
+.search-box button{
+    padding: 8px 10px;
+    outline: none;
+    border: 0;
+    border-radius: 0px 5px 5px 0px;
+    font-size: 1rem;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.recipes{
+    padding: 50px 0;
+    
+}
+
+.recipes h1 {
+    text-align: center;
+    margin: 30px;
+    font-size: 28px;
+}
+.Breakfast {
+    background: #fff;
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    column-gap: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.Breakfast img {
+    max-width: 100%;
+    height: 270px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.Breakfast h2 {
+    font-size: 22px;
+    padding: 20px;
+}
+.Breakfast p {
+    font-size: 18px;
+    padding: 20px;
+}
+.Breakfast a {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    background: #333;
+    color: #ccc;
+    padding: 15px 0;
+}
+.Recipes1{
+    padding: 50px 0;
+    
+}
+
+.Recipes1 h1 {
+    text-align: center;
+    margin: 30px;
+    font-size: 28px;
+}
+.Lunch{
+    background: #fff;
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    column-gap: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.Lunch img {
+    max-width: 100%;
+    height: 270px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.Lunch h2 {
+    font-size: 22px;
+    padding: 20px;
+}
+.Lunch p {
+    font-size: 18px;
+    padding: 20px;
+}
+.Lunch a {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    background: #333;
+    color: #ccc;
+    padding: 15px 0;
+}
+
+.Recipes2{
+    padding: 50px 0;
+    
+}
+
+.Recipes2 h1 {
+    text-align: center;
+    margin: 30px;
+    font-size: 28px;
+}
+.Dinner{
+    background: #fff;
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    column-gap: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.Dinner img {
+    max-width: 100%;
+    height: 270px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.Dinner h2 {
+    font-size: 22px;
+    padding: 20px;
+}
+.Dinner p {
+    font-size: 18px;
+    padding: 20px;
+}
+.Dinner a {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    background: #333;
+    color: #ccc;
+    padding: 15px 0;
+}
+
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-content {
+    flex: 1;
+    margin: 10px;
+}
+
+.footer-content h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-content p,
+.footer-content ul,
+.footer-content li,
+.footer-content a {
+    color: #ccc;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    color: rgb(231, 158, 24);
+}
+
+.footer-content ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.footer-content li {
+    margin-bottom: 5px;
+    text-align: center;
+    list-style: none;
+}
+
+.footer-content li a i {
+    font-size: 20px;
+    margin: 0 10px;
+    color: #ccc;
+}
+
+.footer-content li a i:hover {
+    color: rgb(231, 158, 24);
+}
